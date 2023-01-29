@@ -9,7 +9,7 @@ export default function App() {
       </div>
       <footer className="text-center">
         This project was coded by Elnaz Haghparast and is open-sourced on{" "}
-        <a href="https://github.com/e-haghparast">GitHub</a>
+        <a href="https://github.com/e-haghparast" target="_blank" rel="noopener noreferrer">GitHub</a>
       </footer>
     </div>
   );
