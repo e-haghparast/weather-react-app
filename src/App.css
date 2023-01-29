@@ -1,15 +1,30 @@
+html {
+  background-color: #4d99e7;
+}
 body {
-    font-family:'Courgette', cursive;
+  font-family: "Courgette", cursive;
+  background: url("/sky.jpg") no-repeat 0 0/100%;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
 }
 footer {
-    font-size: 15px;
-    color: rgb(135,135,135);
+  font-size: 15px;
+  color: white;
+  opacity: 70%;
+}
+footer a {
+  color: white;
 }
 .App .app-container {
-  border: 1px solid rgb(135,135,135);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   max-width: 600px;
-  padding:20px;
-  margin: 30px auto 20px;
-  border-radius: 4px;
-  color: rgb(135,135,135);
+  padding: 20px;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
 }

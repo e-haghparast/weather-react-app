@@ -1,6 +1,10 @@
 .Weather form {
   margin-bottom: 20x;
 }
+.Weather .search-city{
+  border-radius:4px ;
+  border-color: #fff6;
+}
 .Weather .search-button {
   color: white;
   background-color: #a6cffe;
@@ -8,24 +12,26 @@
 .Weather h1 {
   line-height: 29px;
   font-weight: 100px;
-  font-size: 24px;
+  font-size: 35px;
   margin-top: 20px;
+  margin-bottom:15px;
 }
 .Weather ul {
   margin: 0;
   padding: 0;
 }
 .Weather li {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 100px;
   line-height: 19px;
   list-style: none;
 }
 .Weather canvas {
   margin-right: 7px;
+  margin-bottom:20px;
 }
 .Weather .temperature {
   font-size: 60px;
-  color: rgb(33, 33, 33);
+  color: #1b5da3;
   line-height: 60px;
 }
